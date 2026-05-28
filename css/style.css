@@ -68,6 +68,22 @@ body {
   position: relative;
 }
 
+.context-intro {
+  padding: 96px 0 24px;
+}
+
+.context-intro-text {
+  font-size: clamp(0.95rem, 2vw, 1.1rem);
+  font-weight: 400;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  max-width: 840px;
+}
+
+.brand-highlight {
+  color: #ff8b6b;
+}
+
 /* ===== Nav ===== */
 .site-nav {
   position: fixed;
@@ -181,6 +197,15 @@ body {
   stroke-width: 1.75;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+.nav-icon-cv-text {
+  fill: currentColor;
+  stroke: none;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 7.2px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
 }
 
 .site-nav.nav-on-light .nav-icon-link {
@@ -435,10 +460,10 @@ body {
 
 /* ===== Venn diagram ===== */
 .pullquote {
-  font-size: clamp(1.25rem, 3vw, 1.65rem);
-  font-weight: 500;
+  font-size: clamp(1rem, 2.2vw, 1.2rem);
+  font-weight: 400;
   color: var(--text-primary);
-  line-height: 1.5;
+  line-height: 1.6;
   margin-bottom: 56px;
   max-width: 640px;
 }
