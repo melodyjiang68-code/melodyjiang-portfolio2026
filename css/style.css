@@ -624,10 +624,6 @@ body {
   min-width: 72px;
 }
 
-.preview-result-line {
-  margin: 24px 0 16px;
-}
-
 .dual-flow {
   display: flex;
   flex-direction: column;
